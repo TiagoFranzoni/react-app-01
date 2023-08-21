@@ -1,0 +1,20 @@
+.blogmenu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: #d6cccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blogmenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.blogmenu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #d6cccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    position: relative;
+    z-index: 100;
+}
+
+.headerNavigation ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.headerNavigation form input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 45px;
+}
+
