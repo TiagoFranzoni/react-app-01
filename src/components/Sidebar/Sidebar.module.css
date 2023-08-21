@@ -1,6 +1,15 @@
 .sidebar {
-    width: 50%;
+    width: 150px;
     margin-left: 20px;
-    padding: 0 40px;
+    padding: 0 50px;
     background-color: #d6cccc;
+}
+
+.sidebar ul {
+    position: fixed;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    padding: 3px 0;
 }
